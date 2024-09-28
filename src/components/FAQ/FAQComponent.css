@@ -1,0 +1,165 @@
+/* Container */
+.faq-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Header */
+.faq-header h2 {
+  font-size: 55px; 
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+
+.faq-header p {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 60px;
+}
+
+/* FAQ Grid */
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.faq-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.faq-item h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 18px;
+  color: #272727;
+  margin-bottom: 50px;
+}
+
+/* Contact Section */
+.faq-contact {
+  margin-top: 40px;
+}
+
+.faq-contact h3 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.faq-contact p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+}
+
+.contact-btn:hover {
+  opacity: 0.8;
+}
+
+/* Responsive Styles */
+
+/* Tablet: Max-width 768px */
+@media (max-width: 768px) {
+  .faq-header h2 {
+    font-size: 26px;
+  }
+
+  .faq-header p {
+    font-size: 14px;
+  }
+
+  .faq-grid {
+    grid-template-columns: 1fr; /* Stack the grid items in one column */
+    gap: 20px;
+  }
+
+  .faq-item h4 {
+    font-size: 16px;
+  }
+
+  .faq-item p {
+    font-size: 13px;
+  }
+
+  .faq-contact h3 {
+    font-size: 22px;
+  }
+
+  .faq-contact p {
+    font-size: 14px;
+  }
+
+  .contact-btn {
+    padding: 8px 16px;
+    font-size: 15px;
+  }
+}
+
+/* Mobile: Max-width 480px */
+@media (max-width: 480px) {
+  .faq-container {
+    padding: 30px;
+  }
+
+  .faq-header h2 {
+    font-size: 22px;
+  }
+
+  .faq-header p {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+
+  .faq-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .faq-item {
+    padding: 15px;
+  }
+
+  .faq-item h4 {
+    font-size: 15px;
+  }
+
+  .faq-item p {
+    font-size: 12px;
+  }
+
+  .faq-contact h3 {
+    font-size: 20px;
+  }
+
+  .faq-contact p {
+    font-size: 19px;
+  }
+
+  .contact-btn {
+    padding: 7px 14px;
+    font-size: 14px;
+  }
+}

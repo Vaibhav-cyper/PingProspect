@@ -1,0 +1,60 @@
+/* Main container styling */
+.privacy-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Headings styling */
+  .privacy-container h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .privacy-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .privacy-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive for smaller devices */
+  @media (max-width: 768px) {
+    .privacy-container {
+      padding: 15px;
+    }
+  
+    .privacy-container h1 {
+      font-size: 28px;
+    }
+  
+    .privacy-container h2 {
+      font-size: 20px;
+    }
+  
+    .privacy-container p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .privacy-container h1 {
+      font-size: 24px;
+    }
+  
+    .privacy-container h2 {
+      font-size: 18px;
+    }
+  
+    .privacy-container p {
+      font-size: 13px;
+    }
+  }
+  

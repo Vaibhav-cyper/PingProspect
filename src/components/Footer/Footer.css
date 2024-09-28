@@ -1,0 +1,88 @@
+/* Footer container */
+.footer {
+  /* margin-top: 450px; */
+  border-top: 1px solid #e0e0e0;
+  padding: 15px 20px;
+  font-size: 12px;
+  background-color: #f9f9f9;
+}
+
+/* Footer content layout */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Allows the content to wrap on smaller screens */
+}
+
+/* Copyright text */
+.copyright {
+  margin: 0;
+  color: #000000;
+  font-size: 15px;
+}
+
+/* Footer links */
+.footer-links {
+  display: flex;
+  gap: 15px;
+}
+
+.NavLink {
+  color: #000000;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.NavLink:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+
+/* Tablet: Max-width 768px */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Adds some space between copyright and links */
+  }
+
+  .footer-links {
+    gap: 10px; /* Reduces gap between links */
+  }
+
+  .footer-link {
+    font-size: 11px; /* Smaller font size for tablet */
+  }
+
+  .copyright {
+    font-size: 11px; /* Adjust copyright text size */
+  }
+}
+
+/* Mobile: Max-width 480px */
+@media (max-width: 480px) {
+  .footer {
+    padding: 10px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center the text for better alignment */
+  }
+
+  .footer-links {
+    gap: 8px;
+    flex-direction: column; /* Stack the links vertically */
+  }
+
+  .footer-link {
+    font-size: 10px; /* Smaller font size for mobile */
+  }
+
+  .copyright {
+    font-size: 10px; /* Adjust copyright text size for mobile */
+  }
+}

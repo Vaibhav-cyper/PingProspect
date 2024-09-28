@@ -1,0 +1,137 @@
+/* Container */
+.pricing-container {
+  text-align: center;
+  padding: 70px; /* Increased padding for larger spacing */
+  max-width: 1400px; /* Increased container width */
+  margin: 0 auto;
+}
+
+.pricing-container h2 {
+  font-size: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: -70px;
+}
+
+.pricing-container p {
+  font-size: 20px; /* Increased font size for description */
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+/* Toggle Buttons */
+.toggle-btns {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.toggle-btns button {
+  padding: 12px 25px; /* Increased button size */
+  font-size: 18px; /* Larger font for buttons */
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #000;
+  margin: 0 15px;
+}
+
+.toggle-btns button.active {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+/* Pricing Cards */
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-card {
+  border: 1px solid #ddd;
+  padding: 40px; /* Increased padding for a more spacious card */
+  margin: 0 20px; /* Increased margin between cards */
+  width: 400px; /* Increased width of the cards */
+  text-align: left;
+}
+
+.pricing-card h3 {
+  font-size: 26px; /* Larger heading */
+  margin-bottom: 15px;
+}
+
+.pricing-card .price {
+  font-size: 36px; /* Larger price text */
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.pricing-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pricing-card ul li {
+  font-size: 18px; /* Increased font size for list items */
+  margin-bottom: 15px;
+}
+
+.pricing-card .btn {
+  background-color: black;
+  color: white;
+  padding: 12px 25px; /* Increased button size */
+  border: none;
+  cursor: pointer;
+  font-size: 20px; /* Larger font for buttons */
+  width: 100%;
+  margin-top: 25px;
+}
+
+/* Responsive Styles */
+
+/* Tablet: Max-width 768px */
+@media (max-width: 768px) {
+  .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-card {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+}
+
+/* Mobile: Max-width 480px */
+@media (max-width: 480px) {
+  .pricing-container h2 {
+    font-size: 30px;
+  }
+
+  .pricing-container p {
+    font-size: 16px;
+  }
+
+  .toggle-btns button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .pricing-card h3 {
+    font-size: 22px;
+  }
+
+  .pricing-card .price {
+    font-size: 28px;
+  }
+
+  .pricing-card ul li {
+    font-size: 16px;
+  }
+
+  .pricing-card .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
