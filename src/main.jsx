@@ -14,7 +14,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App/> }>
-      <Route path='home' element={[<HeroComponent/> , <FeatureComponent/>, <PricingComponent/> , <FAQComponent/> ]}/>
+      <Route path='/' element={[<HeroComponent/> , <FeatureComponent/>, <PricingComponent/> , <FAQComponent/> ]}/>
       <Route path='privacy-policy' element={<PrivacyPolicy/>}/>
       <Route path='terms-of-service' element={<Termnsservice/>}/>
     </Route>
