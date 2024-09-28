@@ -37,7 +37,9 @@ const PricingComponent = () => {
               <li>✔ Strong Error Handling and Quick Recovery</li>
               <li>✔  Instant, On-Demand Support</li>
             </ul>
-            <button className="btn">Download Our Desktop App</button>
+            <a href="https://github.com/Vaibhav-cyper/Ping-Prospect_exefiloe/releases/download/v1.0.0/gui.exe">
+              <button className="btn">Download Our Desktop App</button>
+            </a>
           </div>
         ) : (
           <div className="pricing-card">
