@@ -37,7 +37,7 @@ const PricingComponent = () => {
               <li>✔ Strong Error Handling and Quick Recovery</li>
               <li>✔  Instant, On-Demand Support</li>
             </ul>
-            <a href="https://github.com/Vaibhav-cyper/Ping-Prospect_exefiloe/releases/download/v1.0.0/gui.exe">
+            <a href="https://www.dropbox.com/scl/fi/59ugpswtikgri0a2ondgn/gui.exe?rlkey=s2q6680ezxccpg5rx7clbmlbc&st=rma8zejy&dl=1">
               <button className="btn">Download Our Desktop App</button>
             </a>
           </div>
@@ -53,7 +53,7 @@ const PricingComponent = () => {
               <li>✔ Strong Error Handling and Quick Recovery</li>
               <li>✔  Instant, On-Demand Support</li>
             </ul>
-            <a href="https://github.com/Vaibhav-cyper/Ping-Prospect_exefiloe/releases/download/v1.0.0/gui.exe">
+            <a href="https://www.dropbox.com/scl/fi/59ugpswtikgri0a2ondgn/gui.exe?rlkey=s2q6680ezxccpg5rx7clbmlbc&st=rma8zejy&dl=1">
               <button className="btn">Download Our Desktop App</button>
             </a>
           </div>
