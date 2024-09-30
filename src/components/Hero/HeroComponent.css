@@ -114,7 +114,8 @@
   .btn-primary {
     font-size: 14px;
     padding: 8px 16px;
-    margin-left: -90px;
+    margin-left: -100px;
+    width: 245px;
   }
 
   .hero-image img {
