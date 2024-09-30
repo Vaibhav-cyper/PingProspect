@@ -28,7 +28,7 @@ const Navbar = () => {
         <li><a href="#pricing">Pricing</a></li>
         <li><a href="#support">Support</a></li>
         <li>
-          <a href="https://github.com/Vaibhav-cyper/Ping-Prospect_exefiloe/releases/download/v1.0.0/gui.exe">
+          <a href="https://www.dropbox.com/scl/fi/59ugpswtikgri0a2ondgn/gui.exe?rlkey=s2q6680ezxccpg5rx7clbmlbc&st=rma8zejy&dl=1">
             <button className="btn-download">Download</button>
           </a>
         </li>
