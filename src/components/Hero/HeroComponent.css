@@ -94,6 +94,13 @@
     text-align: left;
     margin-left: -40px;
   }
+
+  .btn-primary {
+/*     font-size: 14px;
+    padding: 8px 16px;
+    margin-left: -100px; */
+    width: 200px;
+  }
 }
 
 /* Media Query for Mobile Phones (max-width: 480px) */
