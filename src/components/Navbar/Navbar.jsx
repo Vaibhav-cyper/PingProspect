@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar-logo">
+      <div className="navbar-logo">
         <a href="https://ping-prospect.vercel.app">
           <img src={('./Pingprospect_raw.png')} alt="Logo" />
         </a>
