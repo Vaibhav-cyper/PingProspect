@@ -29,6 +29,11 @@ const Navbar = () => {
         <li ><a href="#features">Features</a></li>
         <li><a href="#pricing">Pricing</a></li>
         <li><a href="#support">Support</a></li>
+        <li>
+          <a href="https://github.com/Vaibhav-cyper/Ping-Prospect_exefiloe/releases/download/v1.0.0/gui.exe">
+              <button className="btn-download">Download</button>
+          </a>
+        </li>
       </ul>
     </nav>
   );
