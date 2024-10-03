@@ -96,9 +96,15 @@
     margin-top: -35px ;
   }
 
+  .btn-download {
+    font-size: 15.5px;
+    margin-top: 20px;
+    width: 120px;
+  }
+  
   /* Open the mobile menu when clicked */
   .mobile-menu-open {
-    display: flex;
+    display: none;
     
   }
 }
