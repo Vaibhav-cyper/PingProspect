@@ -7,6 +7,7 @@ import PricingComponent from './components/Pricing/PricingComponent';
 import FAQComponent from './components/FAQ/FAQComponent';
 import PrivacyPolicy from './components/privacy-policy/Privacy-policy.jsx'
 import Termnsservice from './components/terms-of-service/Terms-service.jsx'
+// import PaymentError from './components/PaymentError/PaymentError.jsx'
 import PaymentError from './components/PaymentError/PaymentError.jsx'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 
