@@ -63,8 +63,8 @@
 /* Mobile: Max-width 480px */
 @media (max-width: 480px) {
   .navbar-logo img {
-      height: 95px;
-      margin-left: 25px;
+      height: 100px;
+      margin-left: 15px;
   }
 
   .navbar-links a {
