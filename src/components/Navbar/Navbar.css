@@ -63,8 +63,8 @@
 /* Mobile: Max-width 480px */
 @media (max-width: 480px) {
   .navbar-logo img {
-      height: 70px;
-      margin-left: -10px;
+      height: 95px;
+      margin-left: 25px;
   }
 
   .navbar-links a {
@@ -99,7 +99,7 @@
   .btn-download {
     font-size: 15.5px;
     margin-top: 20px;
-    width: 120px;
+    width: 110px;
   }
   
   /* Open the mobile menu when clicked */
