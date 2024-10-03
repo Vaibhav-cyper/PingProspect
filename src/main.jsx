@@ -1,7 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
 import HeroComponent from './components/Hero/HeroComponent.jsx'
 import FeatureComponent from './components/Feature/FeatureComponent';
 import PricingComponent from './components/Pricing/PricingComponent';
