@@ -18,7 +18,7 @@ const router = createBrowserRouter(
       <Route path='/' element={[<HeroComponent/> , <FeatureComponent/>, <PricingComponent/> , <FAQComponent/> ]}/>
       <Route path='privacy-policy' element={<PrivacyPolicy/>}/>
       <Route path='terms-of-service' element={<Termnsservice/>}/>
-      <Route path='failedpayment' element={<PaymentError/>}/>
+      <Route path='/failedpayment' element={<PaymentError/>}/>
     </Route>
   )
 )
