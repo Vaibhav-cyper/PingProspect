@@ -11,17 +11,20 @@ const Navbar = () => {
   };
 
   return (
+    <nav className="navbar">
       <div className="navbar-logo">
         <a href="https://ping-prospect.vercel.app">
           <img src={('./Pingprospect_raw.png')} alt="Logo" />
         </a>
       </div>
 
-      
+      {/* Hamburger icon for mobile */}
       <div className="hamburger-icon" onClick={toggleMobileMenu}>
-        <a href="https://www.dropbox.com/scl/fi/59ugpswtikgri0a2ondgn/gui.exe?rlkey=s2q6680ezxccpg5rx7clbmlbc&st=rma8zejy&dl=1">
-            <button className="btn-download">Download</button>
-          </a>
+
+        <a href="https://github.com/Vaibhav-cyper/Ping-Prospect_exefiloe/releases/download/v1.0.0/gui.exe">
+              <button className="btn-download">Download</button>
+        </a>
+
       </div>
 
       {/* Navigation links */}
@@ -33,7 +36,7 @@ const Navbar = () => {
         <li>
           <a href="https://github.com/Vaibhav-cyper/Ping-Prospect_exefiloe/releases/download/v1.0.0/gui.exe">
               <button className="btn-download">Download</button>
-          </a>
+        </a>
         </li>
       </ul>
     </nav>
