@@ -11,9 +11,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">
-        <img src={('./Pingprospect_raw.png')} alt="Logo" />
+    <div className="navbar-logo">
+        <a href="https://ping-prospect.vercel.app">
+          <img src={('./Pingprospect_raw.png')} alt="Logo" />
+        </a>
       </div>
 
       {/* Hamburger icon for mobile */}
