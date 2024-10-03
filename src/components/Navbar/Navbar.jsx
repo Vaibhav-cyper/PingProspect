@@ -17,7 +17,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      {/* Hamburger icon for mobile */}
+      
       <div className="hamburger-icon" onClick={toggleMobileMenu}>
         <a href="https://www.dropbox.com/scl/fi/59ugpswtikgri0a2ondgn/gui.exe?rlkey=s2q6680ezxccpg5rx7clbmlbc&st=rma8zejy&dl=1">
             <button className="btn-download">Download</button>
