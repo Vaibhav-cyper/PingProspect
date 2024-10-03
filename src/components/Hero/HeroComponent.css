@@ -102,9 +102,6 @@
     width: 200px;
   }
 
-  .btn-secondary{
-    display: none;
-  }
 }
 
 /* Media Query for Mobile Phones (max-width: 480px) */
@@ -128,7 +125,11 @@
     margin-left: -100px;
     width: 200px;
   }
-
+  
+  .btn-secondary{
+    display: none;
+  }
+  
   .hero-image img {
     max-width: 250px;
   }
