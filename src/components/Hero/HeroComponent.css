@@ -101,6 +101,10 @@
     margin-left: -100px; 
     width: 200px;
   }
+
+  .btn-secondary{
+    display: none;
+  }
 }
 
 /* Media Query for Mobile Phones (max-width: 480px) */
