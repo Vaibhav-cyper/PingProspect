@@ -13,9 +13,9 @@ const HeroComponent = () => {
             reach more people efficiently.
           </p>
           <div className="hero-buttons">
-            <a href="https://www.dropbox.com/scl/fi/59ugpswtikgri0a2ondgn/gui.exe?rlkey=s2q6680ezxccpg5rx7clbmlbc&st=rma8zejy&dl=1">
+{/*             <a href="https://www.dropbox.com/scl/fi/59ugpswtikgri0a2ondgn/gui.exe?rlkey=s2q6680ezxccpg5rx7clbmlbc&st=rma8zejy&dl=1"> */}
               <button className="btn-primary">Download Our Desktop App</button>
-            </a>
+{/*             </a> */}
             <a href="#features">
               <button className="btn-secondary">Learn More</button>
             </a>
