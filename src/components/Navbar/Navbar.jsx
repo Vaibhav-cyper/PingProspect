@@ -18,7 +18,9 @@ const Navbar = () => {
 
       {/* Hamburger icon for mobile */}
       <div className="hamburger-icon" onClick={toggleMobileMenu}>
-        ☰
+        <a href="https://www.dropbox.com/scl/fi/59ugpswtikgri0a2ondgn/gui.exe?rlkey=s2q6680ezxccpg5rx7clbmlbc&st=rma8zejy&dl=1">
+            <button className="btn-download">Download</button>
+          </a>
       </div>
 
       {/* Navigation links */}
@@ -27,11 +29,6 @@ const Navbar = () => {
         <li ><a href="#features">Features</a></li>
         <li><a href="#pricing">Pricing</a></li>
         <li><a href="#support">Support</a></li>
-        <li>
-          <a href="https://www.dropbox.com/scl/fi/59ugpswtikgri0a2ondgn/gui.exe?rlkey=s2q6680ezxccpg5rx7clbmlbc&st=rma8zejy&dl=1">
-            <button className="btn-download">Download</button>
-          </a>
-        </li>
       </ul>
     </nav>
   );
